@@ -1,0 +1,30 @@
+.arrow {
+	position: relative;
+	z-index: 3;
+}
+
+.arrow img {
+  	position: absolute;
+  	left: 0;
+	opacity: 0.3;
+  	transition: opacity 0.3s linear;
+}
+
+.arrow img.top:hover {
+  	opacity: 1;
+}
+	
+#toTop {
+	display: block;
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	width: 85px;
+	height: 85px;
+	
+	
+}
+	
+
+	
+

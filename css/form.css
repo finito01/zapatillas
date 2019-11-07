@@ -1,0 +1,20 @@
+
+
+h3{ 
+	font-family:Raleway;
+	font-weight:bold;
+	font-size:24px;
+	margin-top:15px;
+}
+body{
+	background-color:#eaeaea;
+}
+form{
+	max-width:600px;
+	width:100%;
+	padding:15px 35px 45px 35px;
+	margin:20px auto;
+	background-color:#ffffff;
+	border:1px solid rgba(0,0,0,0.1;)
+	font-family:Lato;
+}

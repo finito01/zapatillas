@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quattrocento', serif;
+    font-size: 13px;
+    font-weight: 300;
+    background-color: #eee;
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+header hr,
+footer hr {
+    width: 100%;
+    margin: 15px auto 30px auto;
+}
+
+.galery {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery li {
+    list-style: none;
+    width: calc(100% /3);
+    /*calcula*/
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.galery li .box {
+    padding: 6px 6px 30px 6px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 5px -9px 3px rgba(169, 175, 187, 0.199);
+    
+}
+
+.galery li img {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+    height: auto;
+}
+
+.galery li h3 {
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.galery li p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(61, 23, 122);
+}
+
+.galery li time {
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+#footer-text {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*---------------------------------------------form---------------------------------------------*/
+.form-signin {
+    max-width: 380px;
+    padding: 45px 35px 45px 35px;
+    margin: 0px auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 20px 12px 2px rgba(138, 102, 240, 0.288);
+
+}
+
+h2{
+    color: rgba(10, 80, 80, 0.493);
+}
+
+#wrapper{
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+input[type="text"]{
+border-bottom-left-radius: 4;
+border-bottom-right-radius:4; 
+}
+
+input[type="password"]{
+    border-top-left-radius:4;
+    border-top-right-radius:4;
+}
+
